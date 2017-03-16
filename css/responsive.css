@@ -1,0 +1,78 @@
+@media screen and (min-width: 480px){
+  /********************
+  TWO COLUMN LAYOUT
+  ********************/
+ /* section {
+    display:inline !important;
+  }*/
+/*  #primary{
+    width: 100%;
+    float: left;
+  }
+  
+  #secondary{
+    width: 40%;
+    clear: left;
+  }*/
+  
+  
+  /********************
+  PAGE: ABOUT
+  ********************/
+  
+/*  .profile-photo{
+    float: center;
+    margin: auto;
+    padding: 25px;
+  }
+  
+  #pborder{
+    border: 2px solid #999;
+    max-width: 250px;
+    max-height: 250px;
+    margin: auto;
+/*    margin-bottom: 50px;*/
+  }
+
+  
+/*  .border-photo{
+    float: left;
+    clear: both;
+    margin: 0;
+    padding: 0; 
+  }
+  */
+}*/
+   
+
+@media screen and (min-width: 660px){
+  
+  /********************
+  HEADER
+  ********************/
+  
+/*  nav {
+    background: none;
+    float: right;
+    font-size: 1.125em;
+    margin-right: 5%;
+    text-align: right;
+    width: 45%;
+  }*/
+  
+  
+/*  h1{
+    font-size: 2.5em;
+  }
+  
+  h2{
+    font-size: 0.825em;
+    margin-bottom: 20px;
+  }*/
+  
+/*  header{
+    border-bottom: 5px solid #FA9B3C;
+    margin-bottom: 60px;
+  }
+  */
+}
