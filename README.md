@@ -1,3 +1,3 @@
 # Juliette's Portfolio Site!
 
-This is the site where Juliette Abeyta's portfolio snizzax live oh boy oh _boy_.
+This is the site where Juliette Abeyta's portfolio materials live.
