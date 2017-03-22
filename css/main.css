@@ -1,144 +1,140 @@
 body {
+    overflow: hidden;
     background-image: url('https://images.unsplash.com/photo-1487621167305-5d248087c724?dpr=1&auto=format&fit=crop&w=1199&h=674&q=80&cs=tinysrgb&crop=');
-    background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
+    background-size: cover;
 }
 
+
 h2 {
-    font-size: 12px;
     font-family: 'Fjalla One', sans-serif;
-    color: white;
+    font-size: 12px;
     text-transform: lowercase;
+    color: white;
 }
 
 h3 {
     font-family: 'Fjalla One', sans-serif;
+    margin: 60px 0 40px;
     padding-bottom: 5px;
     border-bottom: 1px solid black;
-    margin: 60px 0 40px;
 }
 
 p {
+    font-family: 'Roboto', sans-serif;
     font-size: 15px;
     text-align: justify;
-    font-family: 'Roboto', sans-serif;
 }
 
-.text-container{
-  margin: 60px 60px;
-
+nav {
+    z-index: 100;
 }
 
-#loading{
-  margin: 120px 0 80px;
+.navbar {
+    border: none;
+    background-color: transparent;
+}
+
+#navbar-links > li > a {
+    font-family: 'Fjalla One', sans-serif;
+    text-transform: lowercase;
+    color: white;
+}
+
+#active {
+    /*border-bottom: 1px solid black;*/
+    background-color: transparent;
+    text-shadow: 1px 1px 2px black;
+}
+
+.content-container {
+    display: flex;
+}
+
+.content-box {
+    position: relative;
+    min-height: 100%;
+    /*padding-top: 200px;*/
+    margin-top: -70px;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    background-color: white;
+}
+
+.text-container {
+    margin: 60px 60px;
+}
+
+.flor {
+    display: inline-block;
+    max-height: 20px;
+    margin-top: 20px;
+    padding: 0 15px;
+}
+
+.pimg-border {
+    display: block;
+    max-width: 244px;
+    margin: 0 auto 45px;
+    border: 1px solid black;
+}
+
+.img-profile {
+    display: block;
+    max-height: 200px;
+    margin: 20px auto 20px;
+}
+
+.img-portfolio {
+    padding: 15px;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    padding-top: 25px;
+    text-align: center;
+}
+
+.copyright {
+    text-align: center;
 }
 
 #header {
     font-family: 'Miniver', sans-serif;
     /*text-transform: lowercase;*/
     font-size: 40px;
-    color: white;
     margin: 0 auto;
-}
-
-.flor{
-  max-height: 20px;
-  margin-top: 20px;
-  display: inline-block;
-  padding: 0 15px;
-}
-
-nav{
-  z-index: 100;
-}
-
-.navbar {
-    /*max-width: 50%;*/
-    background-color: transparent;
-    border: none;
-}
-
-/*#navbar-links{
-  float: right;
-}*/
-
-#navbar-links > li > a {
-    font-family: 'Fjalla One', sans-serif;
     color: white;
-    text-transform: lowercase;;
 }
 
-#active{
-  border-bottom: 1px solid black;
-  background-color: transparent;
-}
-
-/*need help with decorating the active link*/
-
-html, body, .content-container {
-  /*height: 100%;*/
-  /*min-height: 100%;*/
-}
-
-body{
-  overflow:hidden;
-}
-.content-container{
-  display: flex;
-
-}
- 
-.content-box {
-    background-color: white;
-    /*padding-top: 200px;*/
-    margin-top:-70px;
-    position:relative;
-    padding-top: 50px;
-    min-height: 100%;
-    padding-bottom:30px;
-}
-
-.pimg-border{
-  border: 1px solid black;
-  display: block;
-  max-width: 244px;
-  margin: 0 auto 45px;
-}
-
-.img-profile {
-    max-height: 200px;
-    margin: 20px auto 20px;
-    display:block;
-}
-
-.img-portfolio{
-    padding: 15px;
-}
-
-.footer{
-  text-align: center;
-  padding-top: 25px;
-  position: absolute;
-  bottom: 0;
-}
-
-.copyright{
-  text-align: center;
-}
-
-@media (max-width: 992px){
-  #header{
-    color: #000;
-  }
-  #navbar-links > li > a {
+#header:hover {
     color: black;
-  }
-  body{
-    overflow: scroll !important;
-    background-image: none;
-  }
 }
 
 
+#loading {
+    margin: 120px 0 80px;
+}
 
+@media (max-width: 992px) {
+    body {
+        overflow: scroll/* !important*/;
+        background-image: none;
+    }
+
+    #header {
+        color: #000;
+    }
+
+    #navbar-links > li > a {
+        color: black;
+    }
+
+    #active {
+        border-bottom: 1px solid black;
+        background-color: transparent;
+        text-shadow: none;
+    }
+}
