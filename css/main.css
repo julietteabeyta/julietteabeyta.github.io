@@ -138,6 +138,10 @@ svg {
         color: #000;
     }
 
+    .brand-fill {
+        fill: #000;
+    }
+
     #navbar-links > li > a {
         color: black;
     }
