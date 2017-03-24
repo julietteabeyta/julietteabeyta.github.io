@@ -40,6 +40,7 @@ nav {
     font-family: 'Fjalla One', sans-serif;
     text-transform: lowercase;
     color: white;
+    margin-top: 20px;
 }
 
 #active {
@@ -50,13 +51,13 @@ nav {
 
 .content-container {
     display: flex;
-}
+  }
 
 .content-box {
     position: relative;
     min-height: 100%;
     /*padding-top: 200px;*/
-    margin-top: -70px;
+    margin-top: -90px;
     padding-top: 50px;
     padding-bottom: 30px;
     background-color: white;
@@ -66,11 +67,24 @@ nav {
     margin: 60px 60px;
 }
 
-.flor {
+/*.flor {
     display: inline-block;
-    max-height: 20px;
-    margin-top: 20px;
-    padding: 0 15px;
+    height: 75px;
+    /*padding: 0 15px;
+} */
+
+svg {
+  height:80px;
+}
+.brand-fill {
+  fill:white;
+}
+.flor:hover .brand-fill {
+  fill:black;
+}
+
+.navbar-brand:hover .brand-fill{
+  fill:black;
 }
 
 .pimg-border {
@@ -102,16 +116,12 @@ nav {
 }
 
 #header {
-    font-family: 'Miniver', sans-serif;
-    /*text-transform: lowercase;*/
-    font-size: 40px;
     margin: 0 auto;
-    color: white;
 }
 
-#header:hover {
+/*#header:hover {
     color: black;
-}
+}*/
 
 
 #loading {
