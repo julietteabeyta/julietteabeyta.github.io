@@ -133,13 +133,18 @@ svg {
         overflow: scroll/* !important*/;
         background-image: none;
     }
-
-    #header {
-        color: #000;
+    
+    .navbar-collapse{
+      border: none;
     }
 
     .brand-fill {
         fill: #000;
+    }
+
+    #header {
+        color: #000;
+        padding-bottom: 65px;
     }
 
     #navbar-links > li > a {
