@@ -1,0 +1,74 @@
+.floral{
+	max-height: 20px;
+	// margin-top: 20px;
+	// margin-right: 10px;
+	display: inline-block;
+	margin-top: -15px;
+	margin-left: 20px;
+}
+
+#navbar-links > li > a{
+	padding: 15px 0 0 2px;
+	margin: 0 10px;
+}
+
+h1{
+	padding-bottom: 10px;
+}
+
+p{
+	padding: 10px 20px;
+	text-align: justify;
+}
+
+.content-container{
+	max-width: 50%;
+	display:none;
+}
+
+.pimg-border{
+	display: block;
+	max-width: 200px;
+	margin: 25px auto 25px;
+}
+
+.profile-pic{
+	max-height: 170px;
+	display: block;
+	border-radius: 100%;
+	margin: 15px auto 15px;
+}
+
+.gallery{
+	display: block;
+}
+
+.gallery img{
+	display: block;
+	max-height: 200px;
+	margin: 25px auto;
+}
+
+.footer{
+	display: block;
+	position: fixed;
+	text-align: center;
+	bottom: 0;
+	padding-top: 20px;
+}
+
+@media (max-width: 992px){
+	.footer{
+		display: none;
+	}
+}	
+
+
+@media (max-width: 768px){	
+	.content-container{
+		max-width: 80%;
+	}
+	p{
+		padding: 0;
+	}
+}

@@ -1,0 +1,40 @@
+.navbar{
+	border: none;
+	border-radius: 0;
+	background: transparent;
+}
+
+#collapsed{
+	border-bottom: none;
+}
+
+#header{
+	color: black;
+	&:hover{
+		color: #450000;
+	}
+}
+
+#navbar-links > li > a{
+	color: black;
+}
+
+#active > a{
+	border-bottom: 1px solid black;
+}
+
+h1{
+	border-bottom: 1px solid black;
+}
+
+.pimg-border{
+	border: 1px solid black;
+}
+
+.contact-links > li >  a{
+	color: maroon;
+	&:hover{
+		color: #08324d;
+		text-decoration: none;
+	}
+}
